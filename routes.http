@@ -13,3 +13,13 @@ Content-Type: audio/mpeg
 
 <./example.mp3
 ------WebKitFormBoundary7MA4YWxkTrZu0gW--
+
+###
+
+# @name create-transcription
+POST http://localhost:3333/videos/c15cc69e-dfc1-46fb-b18e-c1ab09d956fd/transcription
+Content-Type: application/json
+
+{
+  "prompt": "ai, aprender"
+}
